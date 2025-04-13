@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Giga:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    font-family: "Lexend Giga", sans-serif;
+    font-optical-sizing: auto;
+}
+
+body {
+    background-color: lightskyblue;
+    margin: 0px;
+}
+
+.container {
+    margin: 5px;
+    justify-content: center;
+    position: fixed;
+    display: flex;
+    background-color: lightskyblue;
+    width: 100vw;
+    height: 100vh;
+}
+
+.box {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(353deg, #22a0bb, #0b3a7b);
+    align-items: center;
+    border: 2px solid black;
+    width: 70vh;
+    height: 97vh;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: -17px 20px 19px 20px #666596
+}
+
+#btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 43px;
+}
+
+#weatherIcon {
+    width: 170px;
+}
+
+#locationInput {
+    border-radius: 5PX;
+    width: 50vh;
+    padding: 10px;
+}
+
+input {
+    background-color: rgb(155, 214, 238);
+}

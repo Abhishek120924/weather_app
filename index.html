@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>Weather Checker</h2>
+            <input type="text" id="locationInput" placeholder="Enter location" />
+            <button id="btn" onclick="getWeather()">Get Weather</button>
+
+            <div id="weatherInfo" style="margin-top: 20px;">
+                <h3 id="location"></h3>
+                <p id="temperature"></p>
+                <p id="conditionText"></p>
+                <p id="sunrise"></p>
+                <p id="sunset"></p>
+                <p id="moonrise"></p>
+                <p id="moonset"></p>
+                <p id="wind"></p>
+                <p id="humidity"></p>
+                <img id="weatherIcon" />
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
